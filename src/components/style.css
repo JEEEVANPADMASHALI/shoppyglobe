@@ -1,0 +1,117 @@
+/* header */
+.header {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    
+}
+
+
+/* Product Card Container */
+.product-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 270px;
+    height: 460px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    margin: 1rem;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Product Image */
+  .product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  /* Product Title */
+  .product-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    color: #333;
+  }
+  
+  /* Product Category */
+  .product-category {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+  }
+  
+  /* Product Price */
+  .product-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #27ae60;
+  }
+  
+  /* Discount Percentage */
+  .product-discount {
+    font-size: 14px;
+    color: #e74c3c;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Add to Cart Button */
+  .add-to-cart-btn {
+    background: #34db60;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 100%;
+    font-weight: bold;
+  }
+  
+  .add-to-cart-btn:hover {
+    background: #2980b9;
+  }
+  
+  /* Button Disabled State */
+  .add-to-cart-btn:disabled {
+    background: #95a5a6;
+    cursor: not-allowed;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .product-card {
+      width: 90%;
+    }
+  }
+  
+  
+
+
+
+/* productlist styling */
+
+.product-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
