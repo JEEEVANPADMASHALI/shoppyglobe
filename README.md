@@ -1,5 +1,6 @@
 # **ShoppyGlobe - E-commerce Application**  
 
+link to repository --[https://github.com/JEEEVANPADMASHALI/shoppyglobe](https://github.com/JEEEVANPADMASHALI/shoppyglobe)
 ## **Introduction**  
 ShoppyGlobe is a basic e-commerce application built using **React, Redux, React Router, and Tailwind CSS**. It allows users to browse products, view product details, add products to the cart, modify cart quantities, and proceed to checkout. The application fetches product data from an external API and efficiently manages state using Redux.  
 
